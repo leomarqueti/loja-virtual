@@ -337,6 +337,7 @@ nav {
     }
     .bloco-venda {
         margin-bottom: 25px;
+        width: 78%;
     }
     .menus {
         display: flex;
