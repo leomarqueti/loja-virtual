@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E9EAE9;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content:space-around ;
+    margin: auto;
+    align-items: center;
+    height: 115px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+      
+.btn-text-top {
+    background-color: #f5f6fa;
+    border: 1px solid rgba(255, 255, 255, .1);
+    padding: 10px 50px 15px 30px;
+    border-radius: 100px;
+    width: 393px;
+    height: 40px;
+    font-weight: 300;
+    color: #8795a2;
+    margin-top: 23px;
+}
+    
+.btn-buscar-top {
+    width: 20px!important;
+    height: 22px;
+    background: url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat;
+    cursor: pointer!important;
+    border: none;
+    transform: translateY(-50%);
+    padding: 0;
+    position: relative;
+    top: -19px;
+    left: 359px;
+}
+
+.barra-pesquisa {
+    width: 393px;
+    height: 40px;
+    border-radius: 52px;
+    border: none;
+    background-color: #F5F5F5;
+}
+
+.botao-login {
+    border-color: #00acb7;
+    border: 1px solid;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    font-size: 16px;
+    color: #00acb7; 
+}
+
+.banner {
+    background-image: url("https://trello.com/1/cards/620bf3f8bf76ff71199adc86/attachments/620bf3f9bf76ff71199ade5c/previews/620bf3f9bf76ff71199ade64/download/banner-image.png");
+    background-size: cover;
+    width: 100%;
+    height: 469.33px;
+    color: white;
+}
+
+.texto-banner {
+    position: absolute;
+    top: 357px;
+    left: 163px;
+}
+
+.mes-desconto {
+    font-size: 52px;
+    margin-bottom: 15px;
+}
+
+.texto-desconto {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.botao-console {
+    background-color: #00acb7;
+    color: white;
+    width: 130px;
+    height: 51px;
+    border: none;
+    font-size: 16px;
+}
+
+.botao-console:hover {
+    background-color: #03676e;
+}
+
+.conteudo {
+    width: 80%;
+    margin: auto;
+}
+
+.bloco-venda{
+    background-color: #ffffff9c;
+    border-radius: 10px;
+    box-shadow: 1px 3px 8px #00000029;
+}
+
+
+.titulo-starwars {
+    margin-top: 64px;
+    font-size: 32px;
+    color: #464646;
+}
+
+.imagem-produtos {
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem {
+    margin-right: 16px;
+    width: 100%;
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    border-radius: 10px 10px 0px 0px;
+    border: none;
+}
+
+.imagem:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);  
+    
+}
+
+.nome-produto {
+    font-size: 14px;
+    color: #464646;
+    margin: 8px;
+}
+
+.valor {
+    color: #464646;
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 8px;
+}
+
+.ver-p {
+    color: #00acb7;
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 8px;
+}
+
+.menus {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    width: 100%;
+    height: 368px;
+    background-color: #ffffff;
+}
+
+.logo-rodape{
+    margin:auto;
+}
+
+.itens {
+    margin: auto;
+}
+
+.cadastro{
+    margin: auto;
+}
+
+.rodape {
+    text-align: center;
+    height: 80px;
+}
+
+.texto-rodape {
+    margin-top: 50px;
+}
+
+.caixa-nome {
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0px 17px 17px 8px;
+    font-size: 13px;
+    background-color: rgb(233, 234, 233);
+}
+
+.caixa-texto {
+    border: none;
+    width: 100%;
+    height: 82px;
+    padding: 11px 17px 61px 8px;
+    background-color: rgb(233, 234, 233);
+}
+
+@media only screen and (max-width: 854px) {
+    .imagem-produtos {
+        margin-right: 0px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .texto-banner {
+        position: absolute;
+        top: 310px;
+        left: 23px;
+    }
+    .menus {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 80px;
+        width: 100%;
+        height: 368px;
+        background-color: #ffffff;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .btn-text-top {
+        background-color: #f5f6fa;
+        border: 1px solid rgba(255, 255, 255, .1);
+        padding: 13px 7px 18px 10px;
+        border-radius: 100px;
+        width: 187px;
+        height: 40px;
+        font-weight: 300;
+        color: #8795a2;
+        margin-top: 31px;
+    }
+    .btn-buscar-top {
+        width: 20px!important;
+        height: 22px;
+        background: url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat;
+        cursor: pointer!important;
+        border: none;
+        transform: translateY(-50%);
+        padding: 0;
+        position: relative;
+        top: -18px;
+        left: 194px;
+    }
+    .botao-login {
+        border-color: #00acb7;
+        border: 1px solid;
+        width: 63px;
+        height: 50px;
+        background-color: white;
+        font-size: 16px;
+        color: #00acb7;
+    }
+    .logo {
+        margin-right: 0px;
+    }
+    .logo-imagens {
+        width: 120px;
+    }
+  }
+  
+  @media only screen and (max-width: 415px) {
+    header {
+        background-color: white;
+        display: flex;
+        margin: auto;
+        align-items: center;
+        height: 115px;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .logo-imagens {
+        width: 144px;
+        position: absolute;
+        top: 2px;
+        left: 118px;
+    }
+    .btn-text-top {
+        background-color: #f5f6fa;
+        border: 1px solid rgba(255, 255, 255, .1);
+        padding: 13px 7px 18px 10px;
+        border-radius: 100px;
+        width: 317px;
+        height: 5px;
+        font-weight: 300;
+        color: #8795a2;
+        margin-top: 32px;
+    }
+    .btn-buscar-top {
+        width: 20px!important;
+        height: 22px;
+        background: url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat;
+        cursor: pointer!important;
+        border: none;
+        transform: translateY(-50%);
+        padding: 0;
+        position: relative;
+        top: -19px;
+        left: 286px;
+    }
+    .botao-login {
+        border-color: #00acb7;
+        border: 1px solid;
+        width: 120px;
+        height: 26px;
+        background-color: white;
+        font-size: 14px;
+        color: #00acb7;
+        position: absolute;
+        top: 83px;
+        left: 132px;
+    }
+    .texto-banner {
+        position: absolute;
+        top: 285px;
+        left: 11px;
+    }
+    .bloco-venda {
+        margin-bottom: 25px;
+    }
+    .menus {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 80px;
+        width: 100%;
+        height: 605px;
+        background-color: #ffffff;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo-rodape {
+        margin: auto;
+        padding-top: 41px;
+    }
+    .cadastro {
+        margin: auto;
+        margin-left: 3px;
+    }
+}
