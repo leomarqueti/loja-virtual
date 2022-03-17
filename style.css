@@ -286,7 +286,7 @@ nav {
         background-color: #00acb7;
         display: flex;
         margin: auto;
-        align-items: center;
+        align-items: center; 
         height: 115px;
         flex-wrap: wrap;
         flex-direction: row;
