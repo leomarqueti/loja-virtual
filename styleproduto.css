@@ -1,0 +1,200 @@
+
+header {
+    background-color: #00acb7;
+    display: flex;
+    justify-content:space-around ;
+    margin: auto;
+    align-items: center;
+    height: 115px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+      
+.btn-text-top {
+    background-color: #f5f6fa;
+    border: 1px solid rgba(255, 255, 255, .1);
+    padding: 10px 50px 15px 30px;
+    border-radius: 100px;
+    width: 393px;
+    height: 40px;
+    font-weight: 300;
+    color: #8795a2;
+    margin-top: 23px;
+}
+    
+.btn-buscar-top {
+    width: 20px!important;
+    height: 22px;
+    background: url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat;
+    cursor: pointer!important;
+    border: none;
+    transform: translateY(-50%);
+    padding: 0;
+    position: relative;
+    top: -19px;
+    left: 359px;
+}
+
+.barra-pesquisa {
+    width: 393px;
+    height: 40px;
+    border-radius: 52px;
+    border: none;
+    background-color: #F5F5F5;
+}
+
+.botao-login {
+    border-color: white;
+    border: 1px solid;
+    width: 200px;
+    height: 50px;
+    background-color: #00acb7;
+    font-size: 16px;
+    color: white; 
+}
+
+.foto-produto {
+    padding: 87px;
+    margin-left: 137px;
+}
+
+.conteudo-produto {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 133px;
+    margin-top: 133px;
+}
+
+.nome-item {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #464646;
+    margin: 8px;
+}
+
+.valor-produto {
+    font-size: 40px;
+    color: #00acb7;
+    font-weight: bolder;
+    margin-bottom: -12px;
+    margin-top: 51px;
+}
+
+.informacoes {
+    margin-bottom: 230px;
+}
+
+.botaos-compra {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: -158px;
+    margin-top: 79px;
+}
+
+.compra {
+    background-color: #00acb7;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+}
+
+.carrinho {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #00acb7;
+    border: 1px solid #00acb7;
+    height: 50px;
+}
+
+.produtos {
+    width: 100%;
+    height: 523px;
+    background-color: #E9EAE9;
+}
+
+.produtos-starwars {
+    width: 80%;
+    margin: auto;
+}
+
+.conteudo {
+    width: 80%;
+    margin: auto;
+}
+
+.bloco-venda{
+    background-color: #ffffff9c;
+    border-radius: 10px;
+    box-shadow: 1px 3px 8px #00000029;
+}
+
+
+.titulo-starwars {
+    padding-top: 70px;
+    font-size: 32px;
+    color: #464646;
+}
+
+.imagem-produtos {
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem {
+    margin-right: 16px;
+    width: 100%;
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    border-radius: 10px 10px 0px 0px;
+    border: none;
+}
+
+.imagem:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);  
+    
+}
+
+.nome-produto {
+    font-size: 14px;
+    color: #464646;
+    margin: 8px;
+}
+
+.valor {
+    color: #464646;
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 8px;
+}
+
+.ver-p {
+    color: #00acb7;
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 8px;
+}
+
+.descriçao {
+    color: black;
+}
