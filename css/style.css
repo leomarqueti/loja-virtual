@@ -1,0 +1,583 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content:space-around ;
+    margin: auto;
+    align-items: center;
+    height: 115px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+      
+.btn-text-top {
+    background-color: #f5f6fa;
+    border: 1px solid rgba(255, 255, 255, .1);
+    padding: 10px 50px 15px 30px;
+    border-radius: 100px;
+    width: 393px;
+    height: 40px;
+    font-weight: 300;
+    color: #8795a2;
+    margin-top: 23px;
+}
+    
+.btn-buscar-top {
+    width: 20px!important;
+    height: 22px;
+    background: url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat;
+    cursor: pointer!important;
+    border: none;
+    transform: translateY(-50%);
+    padding: 0;
+    position: relative;
+    top: -19px;
+    left: 359px;
+}
+
+.barra-pesquisa {
+    width: 393px;
+    height: 40px;
+    border-radius: 52px;
+    border: none;
+    background-color: #F5F5F5;
+}
+
+.botao-login {
+    border-color: #2A7AE4;
+    border: 1px solid;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    font-size: 16px;
+    color: #2A7AE4; 
+}
+
+.banner {
+    background-image: url("https://trello.com/1/cards/620bf3f8bf76ff71199adc86/attachments/620bf3f9bf76ff71199ade5c/previews/620bf3f9bf76ff71199ade64/download/banner-image.png");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 469.33px;
+    color: white;
+}
+
+.texto-banner {
+    position: absolute;
+    top: 357px;
+    left: 163px;
+}
+
+.mes-desconto {
+    font-size: 52px;
+    margin-bottom: 15px;
+}
+
+.texto-desconto {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.botao-console {
+    background-color: #2A7AE4;
+    color: white;
+    width: 130px;
+    height: 51px;
+    border: none;
+    font-size: 16px;
+}
+
+.botao-console:hover {
+    background-color: #125ec0;
+}
+
+.conteudo {
+    width: 80%;
+    margin: auto;
+}
+
+.titulo-starwars {
+    margin-top: 64px;
+    font-size: 32px;
+    color: #464646;
+}
+
+.imagem-produtos {
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem {
+    margin-right: 16px;
+    width: 100%;
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    border: 2px solid transparent;
+}
+
+.imagem:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);  
+    border: 2px solid #2A7AE4;
+}
+
+.nome-produto {
+    font-size: 14px;
+    color: #464646;
+    margin: 8px;
+}
+
+.valor {
+    color: #464646;
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 8px;
+}
+
+.ver-p {
+    color: #2A7AE4;
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 8px;
+}
+
+.menus {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    width: 100%;
+    height: 368px;
+    background-color: #EAF2FD;
+}
+
+.logo-rodape{
+    margin:auto;
+}
+
+.itens {
+    margin: auto;
+}
+
+.cadastro{
+    margin: auto;
+}
+
+.rodape {
+    text-align: center;
+    height: 80px;
+}
+
+.texto-rodape {
+    margin-top: 50px;
+}
+
+.caixa-nome {
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0px 17px 17px 8px;
+    font-size: 13px;
+}
+
+.caixa-texto {
+    border: none;
+    width: 100%;
+    height: 82px;
+    padding: 11px 17px 61px 8px;
+}
+
+/*------------------------------------------------------*/
+
+.produto-unico {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    margin-top: 65px;
+    margin-left: 192px;
+}
+
+div.descricao-produto {
+    margin-left: 16px;
+}
+
+p.nome-produto-maior {
+    font-size: 52px;
+}
+
+p.preco-produto-maior {
+    font-size: 16px;
+}
+
+/*------------------------------------------------------*/
+
+section.login{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: auto;
+    width: 30%;
+    margin-top: 101px;    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: auto;
+    width: 30%;
+    margin-top: 101px;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo-login {
+    font-size: 18px;
+    font-weight: bolder;    
+}
+
+.input-login {
+    width: 423px;
+    height: 63px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 10px;
+}
+
+.input-senha {
+    width: 423px;
+    height: 63px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 10px;
+}
+
+.botao-login-usuario {
+    width: 423px;
+    height: 63px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #2A7AE4;
+    color: white;
+}
+
+/*------------------------------------------------------*/
+
+.titulo-add {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.botao-add-produto {
+    border: none;
+    background-color: #125ec0;
+    color: white;
+    width: 164px;
+    height: 51px;
+    margin-right: 17px;
+    margin-bottom: 19px;
+}
+
+.card--info {
+    position: relative;
+  }
+  
+.card--actions {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    z-index: 1;
+}
+
+.icones {
+    margin-right: 10px;
+}
+
+.novo-produto {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.buscar-arquivos {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: stretch;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/*------------------------------------------------------*/
+
+.titulo-adicionar-produto {
+    font-size: 32px;
+    margin-top: 56px;
+}
+
+.botao-procure-computador {
+    border: 1px solid #2A7AE4;
+    background-color: #E5E5E5;
+    color: #2A7AE4;
+    width: 207px;
+    height: 43px;
+    margin-left: 10px;
+}
+
+.paragrafo-ou {
+    margin-left: 10px;
+}
+
+.descricao-produto-novo {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.input-descricao-input {
+    width: 559px;
+    height: 56px;
+    border: none;
+    margin-bottom: 23px;
+    padding: 10px;
+}
+
+.botao-descricao-produto {
+    width: 559px;
+    height: 56px;
+    border: none;
+    background-color: #125ec0;
+    color: #EAF2FD;
+}   
+
+.botao-descricao-produto-maior {
+    width: 559px;
+    height: 82px;
+    border: none;
+    margin-bottom: 23px;
+    padding: 10px;
+}
+
+/*------------------------------------------------------*/
+
+@media only screen and (max-width: 1300px) {
+    .produto-unico {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: auto;
+        width: 80%;
+        margin-top: 65px;
+        /* margin-left: 192px; */
+    }
+}
+
+
+/*------------------------------------------------------*/
+
+
+
+@media only screen and (max-width: 854px) {
+    .imagem-produtos {
+        margin-right: 0px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .texto-banner {
+        position: absolute;
+        top: 310px;
+        left: 23px;
+    }
+    .menus {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 80px;
+        width: 100%;
+        height: 368px;
+        background-color: #EAF2FD;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .btn-text-top {
+        background-color: #f5f6fa;
+        border: 1px solid rgba(255, 255, 255, .1);
+        padding: 13px 7px 18px 10px;
+        border-radius: 100px;
+        width: 187px;
+        height: 40px;
+        font-weight: 300;
+        color: #8795a2;
+        margin-top: 31px;
+    }
+    .btn-buscar-top {
+        width: 20px!important;
+        height: 22px;
+        background: url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat;
+        cursor: pointer!important;
+        border: none;
+        transform: translateY(-50%);
+        padding: 0;
+        position: relative;
+        top: -18px;
+        left: 194px;
+    }
+    .botao-login {
+        border-color: #2A7AE4;
+        border: 1px solid;
+        width: 63px;
+        height: 50px;
+        background-color: white;
+        font-size: 16px;
+        color: #2A7AE4;
+    }
+    .logo {
+        margin-right: 0px;
+    }
+    .logo-imagens {
+        width: 120px;
+    }
+    .produto-unico {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: auto;
+        width: 80%;
+        margin-top: 65px;
+    }
+  }
+
+
+/*------------------------------------------------------*/
+
+
+  
+  @media only screen and (max-width: 415px) {
+    header {
+        background-color: white;
+        display: flex;
+        margin: auto;
+        align-items: center;
+        height: 115px;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .logo-imagens {
+        width: 144px;
+        position: absolute;
+        top: 2px;
+        left: 118px;
+    }
+    .btn-text-top {
+        background-color: #f5f6fa;
+        border: 1px solid rgba(255, 255, 255, .1);
+        padding: 13px 7px 18px 10px;
+        border-radius: 100px;
+        width: 317px;
+        height: 5px;
+        font-weight: 300;
+        color: #8795a2;
+        margin-top: 32px;
+    }
+    .btn-buscar-top {
+        width: 20px!important;
+        height: 22px;
+        background: url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat;
+        cursor: pointer!important;
+        border: none;
+        transform: translateY(-50%);
+        padding: 0;
+        position: relative;
+        top: -19px;
+        left: 286px;
+    }
+    .botao-login {
+        border: 1px solid;
+        width: 120px;
+        height: 26px;
+        background-color: white;
+        font-size: 14px;
+        color: #2A7AE4;
+        position: absolute;
+        top: 83px;
+        left: 132px;
+    }
+    .texto-banner {
+        position: absolute;
+        top: 285px;
+        left: 11px;
+    }
+    .bloco-venda {
+        margin-bottom: 25px;
+    }
+    .menus {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 80px;
+        width: 100%;
+        height: 605px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo-rodape {
+        margin: auto;
+        padding-top: 41px;
+    }
+    .cadastro {
+        margin: auto;
+        margin-left: 3px;
+    }
+    .foto-produto-maior {
+        width: 90%;
+    }
+    p.nome-produto-maior {
+        font-size: 30px;
+    }
+
+    .input-login {
+        width: 317px;
+        height: 52px;
+    }
+    
+    .input-senha {
+        width: 317px;
+        height: 52px;
+    }
+    
+    .botao-login-usuario {
+        width: 317px;
+        height: 52px;
+    }
+    .titulo-login {
+        font-size: 17px;
+    }
+}
